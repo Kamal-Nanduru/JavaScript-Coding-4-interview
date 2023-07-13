@@ -1,10 +1,12 @@
-function reverseWords(sentence) {
+const sentence = "Hello, world! This is a sample sentence.";
+
+
+function a (sentence) {
     const words = sentence.split(" ");
-    const reversedSentence = words.reverse().join(" ");
-    return reversedSentence;
+    const x = words.reverse().join(" ");
+    return x;
   }
   
-  const sentence = "Hello, world! This is a sample sentence.";
-  const reversed = reverseWords(sentence);
+  const reversed = a(sentence);
   console.log(reversed);
   
