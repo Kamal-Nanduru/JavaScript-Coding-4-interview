@@ -8,11 +8,11 @@ for (let i = 1; i < arrayList.length; i++) {
         max = arrayList[i];
     }
 }
-console.log(max);
+console.log("Maximum Value is -- "+ max);
 
 for(let i = 1; i < arrayList.length; i++) {
     if (arrayList[i] < min) {
         min = arrayList[i];
     }
 }
-console.log(min);
+console.log("Minimum Value is -- " + min);

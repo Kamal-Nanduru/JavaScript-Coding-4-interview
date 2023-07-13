@@ -23,7 +23,7 @@ function reverseWords(sentence) {
   }
   
   // Example usage:
-  const sentence = "Hello, how are you?";
+  const sentence = "Hello Kamal See you soon";
   const reversed = reverseWords(sentence);
   console.log(reversed);
   
